@@ -17,11 +17,12 @@ body{
     
 }
 
+/*
 .navbar{
     background-color:#6680d7;
     border-color: #8680F7;
     color: red;
-    /*font-weight: bold;*/
+
 }
 
 .navbar-default .navbar-header .navbar-brand{
@@ -32,7 +33,6 @@ body{
 .navbar-default .navbar-nav > .not-active > a:hover, 
 .navbar-default .navbar-nav > .not-active > a:focus {
    color: #FF0000;
-   font-weight: bold;
 }
 
 .navbar-default .navbar-nav > .active > a, 
@@ -41,7 +41,7 @@ body{
     color: #FF0000;
     background: #007bb5;
 }
-
+*/
 .center{
     background-color: #F0F0F0;
     text-align:center;
@@ -50,7 +50,6 @@ body{
     margin-right: auto;
     margin-top: 32px;
     position: relative;
-/* z-index: -3;*/
 }
 
 .error{
