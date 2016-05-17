@@ -3,16 +3,33 @@ import pymongo
 from pymongo import MongoClient
 
 #Adds a user to database
-def addUser(username, password):
-    pass
+def addUser(username, password, counselor, homeroom):
+    try:
+        user = {"name": username, "hash": hashPass(password) "credits": {}, "isTutor": True,"classes": {},
+                "guidanceCounselor": counselor,"homeRoom":homeroom,"frees":[],"goodClasses":[]}
+        db.users.insert(users)
+        return True
+    except:
+        return False
 
 #Returns boolean that indicates whether a user has inputted correct login information
 def authenticate(username, password):
-    return False
+    try:
+        user = db.users.find({"name": username})
+        return verify(password,user[0]["hash"])
+    except:
+        return False
 
 #Returns boolean indicating whether a certain username is taken
 def checkUsername(username):
-    return False
+    try:
+        user = db.users.find({"name": username})
+        if len(users >=1):
+            return True
+        else:
+            return False
+    except:
+        return False
 
 #Removes user from the database
 def deleteUser(username):
