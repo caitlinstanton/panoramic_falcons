@@ -36,7 +36,7 @@
 			<li>Verify tutor grades to ensure that they are able to tutor in certain subjects</li>
 			<li>Verify tutor's teachers that they had for certain classes to ensure that they can be effectively paired up with a tutee in that teacher's class</li>
 			<li>Check tutee grades to automatically notify them if they need help in a class and automatically update their settings to request a tutor in that subject</li>
-		<ul>
+		</ul>
 	</li>
 	<li>
 		<i>Connect to school mailing list</i>
