@@ -14,6 +14,27 @@
 	<li>Allow for administrators to edit the list of tutors, list of committee members (optional), credit requirements, and crediting periods</li>
 	<li>Allow for administrators to oversee unpaired tutee/tutor accounts, paired tutors/tutees, completed sessions, sessions with discrepancies, and user credits</li>
 </ul>
+
+<br>
+
+<h3>Ideas</h3>
+<ul>
+	<li>Put limit of amount of tutees a tutor can handle (3)</li>
+	<li>Automatic unpairing when tutees/tutors flake after a certain amount of times</li>
+	<li>Automatic emailing of tutees after a certain amount of time if they're still unapired</li>
+	<li>FAQ about peer tutoring, guidance counselor information, etc.</li>
+	<li>Automatically not credit a session if it's submitted more than a week, two weeks after the session</li>
+	<li>Check location of session</li>
+	<li>Facial recognition of selfie after completing session (each account would require a photo)</li>
+	<li>Get rid of grade-checking system for tutors</li>
+	<li>Tutee has to rank sessions (1-5) in order to ensure tutors are of high quality (only show this to school staff)</li>
+	<li>Leadership board for tutors with best ranking, most sessions, most committed, etc.</li>
+	<li>Incentives for tutoring in more-requested classes (geometry, biology, physics)</li>
+	<li>Internal notification system, phone contact information, display preferred method of communication</li>
+</ul>
+
+<br>
+
 <h3>Optional Goals</h3>
 <ul>
 	<li>
@@ -35,7 +56,7 @@
 		<ul>
 			<li>Verify tutor grades to ensure that they are able to tutor in certain subjects</li>
 			<li>Verify tutor's teachers that they had for certain classes to ensure that they can be effectively paired up with a tutee in that teacher's class</li>
-			<li>Check tutee grades to automatically notify them if they need help in a class and automatically update their settings to request a tutor in that subject</li>
+			<li>Check tutee grades to automatically notify them if they need help in a class and automatically update their settings to request a tutor in that subject -- UPDATE: NOT VIABLE</li>
 		</ul>
 	</li>
 	<li>
@@ -99,4 +120,10 @@
 	<li>Check list of completed sessions (coloring of sessions could indicate if there is a discrepancy, etc.)</li>
 	<li>Check list of unpaired tutees/tutors and manually pair up people (not recommended, but a necessary function)</li>
 	<li>Send emails/notifications (to specific people, only tutors, only tutees)</li>
+</ul>
+<h3>School Staff</h3>
+<ul>
+	<li>Be able to check which students have signed up for tutee accounts</li>
+	<li>See a list of paired and unpaired students</li>
+	<li>See a log of completed sessions</li>
 </ul>
