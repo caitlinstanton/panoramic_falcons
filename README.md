@@ -127,3 +127,11 @@
 	<li>See a list of paired and unpaired students</li>
 	<li>See a log of completed sessions</li>
 </ul>
+
+<br>
+
+<h2>Flow of Site</h2>
+<ul>
+	<li>Select tutor, tutee, administrator/school account, or to create a new account</li>
+	<li>Sign up/create account using Google 
+</ul>
