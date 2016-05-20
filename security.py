@@ -2,12 +2,23 @@ from passlib.hash import pbkdf2_sha256
 import pymongo
 from pymongo import MongoClient
 
+def createAccount(username, password, counselor, homeroom, firstName, lastName):
+    if checkUsername(username,password):
+        return "Username in use!"
+    else:
+        if addUser(username, password, counselor, homeroom, firstName, lastName):
+            return "Account creation successful"
+        else:
+            return "Account creation failed"
+
 #Adds a user to database
-def addUser(username, password, counselor, homeroom):
+def addUser(username, password, counselor, homeroom, firstName, LastName):
     try:
-        user = {"name": username, "hash": hashPass(password) "credits": {}, "isTutor": True,"classes": {},
-                "guidanceCounselor": counselor,"homeRoom":homeroom,"frees":[],"goodClasses":[]}
-        db.users.insert(users)
+        user = {"username": username, "hash": hashPass(password) "credits": {}, "isTutor": True,"classes": {},
+                "guidanceCounselor": counselor,"homeRoom":homeroom,
+                "frees":[],"goodClasses":[],
+                "firstName": firstName, "lastName":lastName}
+        db.users.insert(user)
         return True
     except:
         return False
